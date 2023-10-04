@@ -59,8 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PathManagerEditor.cs" />
+    <Compile Include="Assets\Scripts\PathController.cs" />
     <Compile Include="Assets\Scripts\waypoints.cs" />
-    <Compile Include="Assets\Scenes\PathController.cs" />
     <Compile Include="Assets\Scripts\PathManager.cs" />
   </ItemGroup>
   <ItemGroup>
