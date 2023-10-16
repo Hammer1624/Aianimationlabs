@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   path:
-  - pos: {x: -5.026877, y: 3.2339954, z: 1.9176303}
+  - pos: {x: -5.4403305, y: 3.2339954, z: 5.8351173}
   prefab: {fileID: 163617556293284183, guid: 0ce7cbb5cae6c0449bd02794ea78317f, type: 3}
   prefabPoints: []
 --- !u!4 &88234399
@@ -1083,7 +1083,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4927681395739018, guid: 1543549dcdf638d488bd40cb68dd9b8e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.29
+      value: -4.92
       objectReference: {fileID: 0}
     - target: {fileID: 4927681395739018, guid: 1543549dcdf638d488bd40cb68dd9b8e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1206,8 +1206,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pathManager: {fileID: 88234398}
-  MoveSpeed: 0
-  RotateSpeed: 0
+  MoveSpeed: 2
+  RotateSpeed: 2
   animator: {fileID: 787903586}
   NPC: 0
 --- !u!1001 &938825500
@@ -1727,7 +1727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   path:
-  - pos: {x: -6.7067704, y: 4.0335836, z: 2.1883676}
+  - pos: {x: -6.7067704, y: 3.473978, z: 2.1883676}
   prefab: {fileID: 163617556293284183, guid: 0ce7cbb5cae6c0449bd02794ea78317f, type: 3}
   prefabPoints: []
 --- !u!4 &1058891743
@@ -2386,7 +2386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4158096630655302, guid: c647a6e9ba715004ebbf4dc6d7bd1e7a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.84
+      value: -7.58
       objectReference: {fileID: 0}
     - target: {fileID: 4158096630655302, guid: c647a6e9ba715004ebbf4dc6d7bd1e7a, type: 3}
       propertyPath: m_LocalPosition.y
