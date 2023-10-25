@@ -59,7 +59,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\RayCast.cs" />
+    <Compile Include="Assets\PathManager.cs" />
+    <Compile Include="Assets\PathController.cs" />
     <Compile Include="Assets\NavMesh.cs" />
+    <Compile Include="Assets\PathManagerEditor.cs" />
+    <Compile Include="Assets\waypoints.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
