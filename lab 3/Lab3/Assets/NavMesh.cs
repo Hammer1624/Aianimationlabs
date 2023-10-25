@@ -31,7 +31,7 @@ public class NavMesh : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "Dragon")
+        if (other.name == "Target")
         {
             IsSprinting = false;
             animator.SetTrigger("Attacking");
@@ -40,7 +40,7 @@ public class NavMesh : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.name == "Dragon")
+        if (other.name == "Target")
         {
             IsSprinting = true;
             animator.SetTrigger("Sprinting");
