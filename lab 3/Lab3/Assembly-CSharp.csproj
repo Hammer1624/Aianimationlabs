@@ -58,12 +58,21 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\FastIK\Scripts\FastIK\FastIKLook.cs" />
     <Compile Include="Assets\RayCast.cs" />
+    <Compile Include="Assets\FastIK\Scripts\Sample\SampleSinMover.cs" />
+    <Compile Include="Assets\FastIK\Scripts\Sample\SampleRotator.cs" />
     <Compile Include="Assets\PathManager.cs" />
     <Compile Include="Assets\PathController.cs" />
+    <Compile Include="Assets\FastIK\Scripts\Sample\SampleProcedualAnimation.cs" />
     <Compile Include="Assets\NavMesh.cs" />
     <Compile Include="Assets\PathManagerEditor.cs" />
+    <Compile Include="Assets\FastIK\Scripts\FastIK\FastIKFabric.cs" />
     <Compile Include="Assets\waypoints.cs" />
+    <Compile Include="Assets\FastIK\Scripts\FastIK\FastIKCCD.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\FastIK\Documentation.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
