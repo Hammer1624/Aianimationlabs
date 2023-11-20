@@ -21,6 +21,9 @@ namespace DitzelGames.FastIK
         private Transform Target;
         public Transform AcTarget;
         public Transform Pole;
+       
+        
+        public Transform TestAttraction;
         public float AffectiveDistance;
 
         /// <summary>
@@ -114,13 +117,15 @@ namespace DitzelGames.FastIK
 
         private void Update()
         {
-            float distanceToTarget = Vector3.Distance(transform.position, AcTarget.position);
+            float distanceToTarget = Vector3.Distance(TestAttraction.position, AcTarget.position)-0.3f;
 
             float effectFactor = 1.0f - (distanceToTarget / AffectiveDistance);
 
+            effectFactor = 1 - Mathf.Clamp(effectFactor, 0, 1);
+
             Debug.Log(effectFactor);
 
-            Target.position = Vector3.Lerp(transform.position, AcTarget.position, effectFactor);
+            Target.position = Vector3.Lerp(TestAttraction.position, AcTarget.position, effectFactor);
         }
 
         // Update is called once per frame
