@@ -60,14 +60,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\PathmanagerEditor.cs" />
     <Compile Include="Assets\Scripts\PathManger.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
-    <Compile Include="Assets\Scripts\InputManager.cs" />
+    <Compile Include="Assets\Scripts\Challenge 2 scripts\CineMachinePOVExtension.cs" />
+    <Compile Include="Assets\Scripts\Challenge 2 scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Challenge 2 scripts\InputManager.cs" />
+    <Compile Include="Assets\Scripts\Challenge 2 scripts\Enemy.cs" />
     <Compile Include="Assets\Inputs\PlayerControls.cs" />
-    <Compile Include="Assets\Scripts\CineMachinePOVExtension.cs" />
     <Compile Include="Assets\Scripts\PathController.cs" />
     <Compile Include="Assets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\Scripts\waypoints.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AurynSky\Gems Ultimate Pack\READ ME.txt" />

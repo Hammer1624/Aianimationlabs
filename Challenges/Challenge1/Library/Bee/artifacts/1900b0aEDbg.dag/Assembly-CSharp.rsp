@@ -364,13 +364,13 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/AurynSky/Gems Ultimate Pack/Scripts/AnimationScript.cs"
 "Assets/Inputs/PlayerControls.cs"
-"Assets/Scripts/CineMachinePOVExtension.cs"
-"Assets/Scripts/Enemy.cs"
-"Assets/Scripts/InputManager.cs"
+"Assets/Scripts/Challenge 2 scripts/CineMachinePOVExtension.cs"
+"Assets/Scripts/Challenge 2 scripts/Enemy.cs"
+"Assets/Scripts/Challenge 2 scripts/InputManager.cs"
+"Assets/Scripts/Challenge 2 scripts/PlayerController.cs"
 "Assets/Scripts/PathController.cs"
 "Assets/Scripts/PathmanagerEditor.cs"
 "Assets/Scripts/PathManger.cs"
-"Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/waypoints.cs"
 -langversion:9.0
 
