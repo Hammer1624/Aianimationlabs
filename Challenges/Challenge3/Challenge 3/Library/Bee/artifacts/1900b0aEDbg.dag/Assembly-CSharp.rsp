@@ -366,7 +366,12 @@
 "Assets/FastIK/Scripts/Sample/SampleRotator.cs"
 "Assets/FastIK/Scripts/Sample/SampleSinMover.cs"
 "Assets/Scripts/CameraStyle.cs"
+"Assets/Scripts/PathController.cs"
+"Assets/Scripts/PathManager.cs"
+"Assets/Scripts/PathManagerEditor.cs"
+"Assets/Scripts/StateChanger.cs"
 "Assets/Scripts/thirdPersonCam1.cs"
+"Assets/Scripts/waypoints.cs"
 -langversion:9.0
 
 /deterministic

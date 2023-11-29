@@ -62,10 +62,15 @@
     <Compile Include="Assets\Scripts\CameraStyle.cs" />
     <Compile Include="Assets\FastIK\Scripts\Sample\SampleSinMover.cs" />
     <Compile Include="Assets\FastIK\Scripts\Sample\SampleRotator.cs" />
+    <Compile Include="Assets\Scripts\PathManagerEditor.cs" />
     <Compile Include="Assets\FastIK\Scripts\Sample\SampleProcedualAnimation.cs" />
     <Compile Include="Assets\Scripts\thirdPersonCam1.cs" />
+    <Compile Include="Assets\Scripts\PathController.cs" />
     <Compile Include="Assets\FastIK\Scripts\FastIK\FastIKFabric.cs" />
     <Compile Include="Assets\FastIK\Scripts\FastIK\FastIKCCD.cs" />
+    <Compile Include="Assets\Scripts\waypoints.cs" />
+    <Compile Include="Assets\Scripts\StateChanger.cs" />
+    <Compile Include="Assets\Scripts\PathManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FastIK\Documentation.txt" />
