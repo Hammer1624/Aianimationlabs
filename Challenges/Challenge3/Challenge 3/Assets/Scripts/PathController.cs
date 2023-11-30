@@ -18,7 +18,6 @@ public class PathController : MonoBehaviour
     bool isSprinting;
     bool isEmoting;
 
-
     void Start()
     {
         isMoving = false;
@@ -56,7 +55,6 @@ public class PathController : MonoBehaviour
         Vector3 moveDir = Vector3.forward;
         transform.Translate(moveDir * stepSize);
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -68,8 +66,11 @@ public class PathController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
+            if(isSprinting) MoveSpeed -= 2;
+            else MoveSpeed += 2;
             isSprinting = !isSprinting;
             animator.SetBool("isSprinting", isSprinting);
+            
         }
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
@@ -102,6 +103,7 @@ public class PathController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("11");
         target = pathManager.GetNextTarget();
     }
 }

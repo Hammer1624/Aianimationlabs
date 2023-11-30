@@ -18,8 +18,13 @@ namespace DitzelGames.FastIK
         /// <summary>
         /// Target the chain should bent to
         /// </summary>
-        public Transform Target;
+        private Transform Target;
+        public Transform AcTarget;
         public Transform Pole;
+
+
+        public Transform TestAttraction;
+        public float AffectiveDistance;
 
         /// <summary>
         /// Solver iterations per update
@@ -108,6 +113,19 @@ namespace DitzelGames.FastIK
 
 
 
+        }
+
+        private void Update()
+        {
+            float distanceToTarget = Vector3.Distance(TestAttraction.position, AcTarget.position) - 0.3f;
+
+            float effectFactor = 1.0f - (distanceToTarget / AffectiveDistance);
+
+            effectFactor = 1 - Mathf.Clamp(effectFactor, 0, 1);
+
+            Debug.Log(effectFactor);
+
+            Target.position = Vector3.Lerp(TestAttraction.position, AcTarget.position, effectFactor);
         }
 
         // Update is called once per frame

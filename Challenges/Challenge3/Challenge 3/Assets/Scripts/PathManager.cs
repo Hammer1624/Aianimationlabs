@@ -53,4 +53,5 @@ public class PathManager : MonoBehaviour
             g.transform.position = p.pos;
         }
     }
+
 }
